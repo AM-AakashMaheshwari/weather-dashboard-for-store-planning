@@ -1,0 +1,7 @@
+wd.venv/
+__pycache__/
+*.pyc
+.env
+output/
+*.csv
+.DS_Store
