@@ -33,14 +33,18 @@ This project fetches **daily weather data** for the **top 5 store cities** using
 
 ## 📂 Project Structure
 weather_dashboard/
-├─ .env.example # API key template
-├─ cities.txt # 5 store cities
-├─ requirements.txt # Python dependencies
-├─ output/ # Generated CSV files
-└─ src/
-├─ utils.py # Timezone helpers
-├─ config.py # Load env + cities
-├─ weather_client.py # API calls
-├─ transform.py # Extract & clean fields
-├─ storage.py # Write CSV
-└─ main.py # Orchestration
+├─ .env.example
+├─ cities.txt
+├─ requirements.txt
+├─ src/
+│  ├─ __init__.py
+│  ├─ config.py
+│  ├─ utils.py
+│  ├─ weather_client.py
+│  ├─ transform.py
+│  ├─ storage.py
+│  └─ main.py
+└─ tests/
+   ├─ test_transform.py
+   └─ test_integration.py
+
