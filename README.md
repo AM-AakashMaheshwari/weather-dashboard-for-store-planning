@@ -1,5 +1,3 @@
-# weather-dashboard-for-store-planning
-
 # Weather Dashboard for Store Planning
 
 ## 📌 Project Overview
